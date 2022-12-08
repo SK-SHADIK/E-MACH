@@ -1,0 +1,12 @@
+D:\AIUB\ASP.NET\E-MACH\BLL\bin\Debug\BLL.dll
+D:\AIUB\ASP.NET\E-MACH\BLL\bin\Debug\BLL.pdb
+D:\AIUB\ASP.NET\E-MACH\BLL\bin\Debug\DAL.dll
+D:\AIUB\ASP.NET\E-MACH\BLL\bin\Debug\DAL.pdb
+D:\AIUB\ASP.NET\E-MACH\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\AIUB\ASP.NET\E-MACH\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\AIUB\ASP.NET\E-MACH\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\AIUB\ASP.NET\E-MACH\BLL\obj\Debug\BLL.dll
+D:\AIUB\ASP.NET\E-MACH\BLL\obj\Debug\BLL.pdb
+D:\AIUB\ASP.NET\E-MACH\BLL\bin\Debug\EntityFramework.dll
+D:\AIUB\ASP.NET\E-MACH\BLL\bin\Debug\DAL.dll.config
+D:\AIUB\ASP.NET\E-MACH\BLL\bin\Debug\EntityFramework.xml
