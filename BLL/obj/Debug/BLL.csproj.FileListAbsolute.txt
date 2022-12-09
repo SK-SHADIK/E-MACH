@@ -10,3 +10,5 @@ D:\AIUB\ASP.NET\E-MACH\BLL\obj\Debug\BLL.pdb
 D:\AIUB\ASP.NET\E-MACH\BLL\bin\Debug\EntityFramework.dll
 D:\AIUB\ASP.NET\E-MACH\BLL\bin\Debug\DAL.dll.config
 D:\AIUB\ASP.NET\E-MACH\BLL\bin\Debug\EntityFramework.xml
+D:\AIUB\ASP.NET\E-MACH\BLL\bin\Debug\AutoMapper.dll
+D:\AIUB\ASP.NET\E-MACH\BLL\bin\Debug\AutoMapper.xml

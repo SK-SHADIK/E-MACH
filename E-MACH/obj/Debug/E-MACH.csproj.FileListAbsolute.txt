@@ -71,3 +71,8 @@ D:\AIUB\ASP.NET\E-MACH\E-MACH\bin\EntityFramework.dll
 D:\AIUB\ASP.NET\E-MACH\E-MACH\bin\EntityFramework.SqlServer.dll
 D:\AIUB\ASP.NET\E-MACH\E-MACH\bin\EntityFramework.xml
 D:\AIUB\ASP.NET\E-MACH\E-MACH\bin\EntityFramework.SqlServer.xml
+D:\AIUB\ASP.NET\E-MACH\E-MACH\bin\AutoMapper.dll
+D:\AIUB\ASP.NET\E-MACH\E-MACH\bin\DAL.dll
+D:\AIUB\ASP.NET\E-MACH\E-MACH\bin\AutoMapper.xml
+D:\AIUB\ASP.NET\E-MACH\E-MACH\bin\DAL.pdb
+D:\AIUB\ASP.NET\E-MACH\E-MACH\bin\DAL.dll.config
