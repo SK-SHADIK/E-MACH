@@ -87,7 +87,7 @@ namespace E_MACH.Controllers
         /*-------------------------DELETE-------------------------*/
 
         [Route("api/officer/delete/{id}")]
-        [HttpPost]
+        [HttpGet]
         public HttpResponseMessage Delete(int id)
         {
             try

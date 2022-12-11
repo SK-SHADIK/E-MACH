@@ -13,3 +13,18 @@ D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.ProductAndQuestionAnswerTableCreated.resources
 D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.AdminTableCreated.resources
+G:\10th Semester\.Net\Project\E-MACH\DAL\bin\Debug\DAL.dll.config
+G:\10th Semester\.Net\Project\E-MACH\DAL\bin\Debug\DAL.dll
+G:\10th Semester\.Net\Project\E-MACH\DAL\bin\Debug\DAL.pdb
+G:\10th Semester\.Net\Project\E-MACH\DAL\bin\Debug\EntityFramework.dll
+G:\10th Semester\.Net\Project\E-MACH\DAL\bin\Debug\EntityFramework.SqlServer.dll
+G:\10th Semester\.Net\Project\E-MACH\DAL\bin\Debug\EntityFramework.xml
+G:\10th Semester\.Net\Project\E-MACH\DAL\bin\Debug\EntityFramework.SqlServer.xml
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.Migrations.ProductAndQuestionAnswerTableCreated.resources
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.Migrations.AdminTableCreated.resources
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.dll
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.pdb

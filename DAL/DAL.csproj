@@ -73,8 +73,10 @@
     <Compile Include="Properties\SuggestionDTO.cs" />
     <Compile Include="Repo\FishermanRepo.cs" />
     <Compile Include="Repo\OfficerRepo.cs" />
+    <Compile Include="Repo\ProductRepo.cs" />
     <Compile Include="Repo\QuestionAnswerRepo.cs" />
     <Compile Include="Repo\Repo.cs" />
+    <Compile Include="Repo\SuggestionRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
