@@ -54,7 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\FishermanService.cs" />
     <Compile Include="Services\OfficerService.cs" />
+    <Compile Include="Services\ProductService.cs" />
     <Compile Include="Services\QuestionAnswerService.cs" />
+    <Compile Include="Services\SuggestionService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

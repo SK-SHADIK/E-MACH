@@ -94,7 +94,9 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\FishermanController.cs" />
     <Compile Include="Controllers\OfficerController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\QuestionAnswerController.cs" />
+    <Compile Include="Controllers\SuggestionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

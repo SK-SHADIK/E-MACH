@@ -23,5 +23,13 @@ namespace DAL
         {
             return new QuestionAnswerRepo();
         }
+        public static IRepo<Suggestion, int, Suggestion> SuggestionDataAccess()
+        {
+            return new SuggestionRepo();
+        }
+        public static IRepo<Product, int, Product> ProductDataAccess()
+        {
+            return new ProductRepo();
+        }
     }
 }

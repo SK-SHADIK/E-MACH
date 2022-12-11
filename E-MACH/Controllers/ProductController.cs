@@ -9,16 +9,16 @@ using System.Web.Http;
 
 namespace E_MACH.Controllers
 {
-    public class QuestionAnswerController : ApiController
+    public class ProductController : ApiController
     {
         /*-------------------------SHOW ALL-------------------------*/
-        [Route("api/qa")]
+        [Route("api/product")]
         [HttpGet]
         public HttpResponseMessage Get()
         {
             try
             {
-                var data = QuestionAnswerService.Get();
+                var data = ProductService.Get();
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
@@ -28,13 +28,13 @@ namespace E_MACH.Controllers
         }
         /*-------------------------SHOW ONE-------------------------*/
 
-        [Route("api/qa/{id}")]
+        [Route("api/product/{id}")]
         [HttpGet]
         public HttpResponseMessage Get(int id)
         {
             try
             {
-                var data = QuestionAnswerService.Get(id);
+                var data = ProductService.Get(id);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
@@ -44,13 +44,13 @@ namespace E_MACH.Controllers
         }
         /*-------------------------CREATE-------------------------*/
 
-        [Route("api/qa/add")]
+        [Route("api/product/add")]
         [HttpPost]
-        public HttpResponseMessage Add(QuestionAnswerDTO qa)
+        public HttpResponseMessage Add(ProductDTO product)
         {
             try
             {
-                var data = QuestionAnswerService.AddQuestionAnswer(qa);
+                var data = ProductService.AddProduct(product);
                 if (data != null)
                 {
                     return Request.CreateResponse(HttpStatusCode.OK, data);
@@ -67,13 +67,13 @@ namespace E_MACH.Controllers
         }
         /*-------------------------UPDATE-------------------------*/
 
-        [Route("api/qa/update")]
+        [Route("api/product/update")]
         [HttpPost]
-        public HttpResponseMessage Update(QuestionAnswerDTO qa)
+        public HttpResponseMessage Update(ProductDTO product)
         {
             try
             {
-                var data = QuestionAnswerService.Update(qa);
+                var data = ProductService.Update(product);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
@@ -86,13 +86,13 @@ namespace E_MACH.Controllers
         }
         /*-------------------------DELETE-------------------------*/
 
-        [Route("api/qa/delete/{id}")]
+        [Route("api/product/delete/{id}")]
         [HttpGet]
         public HttpResponseMessage Delete(int id)
         {
             try
             {
-                var data = QuestionAnswerService.Delete(id);
+                var data = ProductService.Delete(id);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
