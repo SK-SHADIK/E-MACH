@@ -16,5 +16,7 @@ namespace DAL.EF
         public DbSet <Fisherman> Fishermens { get; set; }
         public DbSet <Officer> Officers { get; set; }
         public DbSet <Suggestion> Suggestions { get; set; }
+        public DbSet <LeaveApplication> LeaveApplications { get; set; }
+
     }
 }
