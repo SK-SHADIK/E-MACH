@@ -26,3 +26,17 @@ G:\10th Semester\.Net\Project\E-MACH\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.
 G:\10th Semester\.Net\Project\E-MACH\BLL\obj\Debug\BLL.csproj.CopyComplete
 G:\10th Semester\.Net\Project\E-MACH\BLL\obj\Debug\BLL.dll
 G:\10th Semester\.Net\Project\E-MACH\BLL\obj\Debug\BLL.pdb
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\bin\Debug\BLL.dll
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\bin\Debug\BLL.pdb
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\bin\Debug\AutoMapper.dll
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\bin\Debug\DAL.dll
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\bin\Debug\EntityFramework.dll
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\bin\Debug\DAL.pdb
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\bin\Debug\DAL.dll.config
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\bin\Debug\AutoMapper.xml
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\bin\Debug\EntityFramework.xml
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\obj\Debug\BLL.dll
+D:\AIUB\ASP.NET\PROJECT\E-MACH\BLL\obj\Debug\BLL.pdb

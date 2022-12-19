@@ -6,9 +6,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace E_MACH.Controllers
 {
+    [EnableCors("*", "*", "*")]
     public class FishermanController : ApiController
     {
         /*-------------------------SHOW ALL-------------------------*/

@@ -55,10 +55,14 @@
     <Compile Include="EF\EMACHContext.cs" />
     <Compile Include="EF\Models\Admin.cs" />
     <Compile Include="EF\Models\Fisherman.cs" />
+    <Compile Include="EF\Models\LeaveApplication.cs" />
     <Compile Include="EF\Models\Officer.cs" />
+    <Compile Include="EF\Models\Order.cs" />
+    <Compile Include="EF\Models\OrderDetails.cs" />
     <Compile Include="EF\Models\Product.cs" />
     <Compile Include="EF\Models\QuestionAnswer.cs" />
     <Compile Include="EF\Models\Suggestion.cs" />
+    <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202212081527363_ProductAndQuestionAnswerTableCreated.cs" />
     <Compile Include="Migrations\202212081527363_ProductAndQuestionAnswerTableCreated.designer.cs">
@@ -67,6 +71,10 @@
     <Compile Include="Migrations\202212081544012_AdminTableCreated.cs" />
     <Compile Include="Migrations\202212081544012_AdminTableCreated.designer.cs">
       <DependentUpon>202212081544012_AdminTableCreated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212191559395_CreateLeaveApplicationTable.cs" />
+    <Compile Include="Migrations\202212191559395_CreateLeaveApplicationTable.designer.cs">
+      <DependentUpon>202212191559395_CreateLeaveApplicationTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -88,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212081544012_AdminTableCreated.resx">
       <DependentUpon>202212081544012_AdminTableCreated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212191559395_CreateLeaveApplicationTable.resx">
+      <DependentUpon>202212191559395_CreateLeaveApplicationTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
