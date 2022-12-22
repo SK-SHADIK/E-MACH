@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repo
 {
-    public class OfficerRepo : Repo, IRepo<Officer, int, Officer>
+    public class OfficerRepo : Repo, IRepo<Officer, int, Officer>, IAuth<Officer, int>
     {
         public Officer Add(Officer obj)
         {
@@ -18,6 +18,17 @@ namespace DAL.Repo
                 return obj;
             }
             return null;
+        }
+        public Officer Officers(string Name)
+        {
+            var obj = db.Officers.FirstOrDefault(x => x.Name.Equals(Name));
+            return obj;
+        }
+
+        public Officer Authenticate(string Email, string Pass)
+        {
+            var obj = db.Officers.FirstOrDefault(x => x.Email.Equals(Email) && x.Pass.Equals(Pass));
+            return obj;
         }
 
         public bool Delete(int id)

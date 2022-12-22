@@ -62,7 +62,9 @@
     <Compile Include="EF\Models\Product.cs" />
     <Compile Include="EF\Models\QuestionAnswer.cs" />
     <Compile Include="EF\Models\Suggestion.cs" />
+    <Compile Include="EF\Models\Token.cs" />
     <Compile Include="Interfaces\IAuth.cs" />
+    <Compile Include="Interfaces\IAuthF.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202212081527363_ProductAndQuestionAnswerTableCreated.cs" />
     <Compile Include="Migrations\202212081527363_ProductAndQuestionAnswerTableCreated.designer.cs">
@@ -76,6 +78,10 @@
     <Compile Include="Migrations\202212191559395_CreateLeaveApplicationTable.designer.cs">
       <DependentUpon>202212191559395_CreateLeaveApplicationTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212221659376_CreateTokensTable.cs" />
+    <Compile Include="Migrations\202212221659376_CreateTokensTable.designer.cs">
+      <DependentUpon>202212221659376_CreateTokensTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\SuggestionDTO.cs" />
@@ -85,6 +91,7 @@
     <Compile Include="Repo\QuestionAnswerRepo.cs" />
     <Compile Include="Repo\Repo.cs" />
     <Compile Include="Repo\SuggestionRepo.cs" />
+    <Compile Include="Repo\TokenRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -99,6 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212191559395_CreateLeaveApplicationTable.resx">
       <DependentUpon>202212191559395_CreateLeaveApplicationTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212221659376_CreateTokensTable.resx">
+      <DependentUpon>202212221659376_CreateTokensTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

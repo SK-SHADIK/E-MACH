@@ -44,3 +44,5 @@ D:\AIUB\ASP.NET\PROJECT\E-MACH\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\AIUB\ASP.NET\PROJECT\E-MACH\DAL\obj\Debug\DAL.dll
 D:\AIUB\ASP.NET\PROJECT\E-MACH\DAL\obj\Debug\DAL.pdb
 D:\AIUB\ASP.NET\PROJECT\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateLeaveApplicationTable.resources
+D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateLeaveApplicationTable.resources
+D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateTokensTable.resources
