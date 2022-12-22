@@ -15,7 +15,15 @@ namespace DAL
         {
             return new FishermanRepo();
         }
+        public static IAuthF<Fisherman, int> FishermanAuthDataAccess()
+        {
+            return new FishermanRepo();
+        }
         public static IRepo<Officer, int, Officer> OfficerDataAccess()
+        {
+            return new OfficerRepo();
+        }
+        public static IAuth<Officer, int> OfficerAuthDataAccess()
         {
             return new OfficerRepo();
         }
@@ -30,6 +38,10 @@ namespace DAL
         public static IRepo<Product, int, Product> ProductDataAccess()
         {
             return new ProductRepo();
+        }
+        public static IRepo<Token, string, Token> TokenDataAccess()
+        {
+            return new TokenRepo();
         }
     }
 }

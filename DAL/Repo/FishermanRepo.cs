@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repo
 {
-    class FishermanRepo : Repo, IRepo<Fisherman, int, Fisherman>
+    class FishermanRepo : Repo, IRepo<Fisherman, int, Fisherman>, IAuthF<Fisherman, int>
     {
         public Fisherman Add(Fisherman obj)
         {
@@ -18,6 +18,17 @@ namespace DAL.Repo
                 return obj;
             }
             return null;
+        }
+        public Fisherman Fishermans(string Name)
+        {
+            var obj = db.Fishermens.FirstOrDefault(x => x.Name.Equals(Name));
+            return obj;
+        }
+
+        public Fisherman Authenticate(string Email, string Pass)
+        {
+            var obj = db.Fishermens.FirstOrDefault(x => x.Email.Equals(Email) && x.Pass.Equals(Pass));
+            return obj;
         }
 
         public bool Delete(int id)

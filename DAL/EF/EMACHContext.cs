@@ -17,6 +17,7 @@ namespace DAL.EF
         public DbSet <Officer> Officers { get; set; }
         public DbSet <Suggestion> Suggestions { get; set; }
         public DbSet <LeaveApplication> LeaveApplications { get; set; }
+        public DbSet <Token> Tokens { get; set; }
 
     }
 }
