@@ -57,13 +57,15 @@
     <Compile Include="EF\Models\Fisherman.cs" />
     <Compile Include="EF\Models\LeaveApplication.cs" />
     <Compile Include="EF\Models\Officer.cs" />
-    <Compile Include="EF\Models\Order.cs" />
+    <Compile Include="EF\Models\AddToCart.cs" />
     <Compile Include="EF\Models\OrderDetails.cs" />
     <Compile Include="EF\Models\Product.cs" />
+    <Compile Include="EF\Models\Question.cs" />
     <Compile Include="EF\Models\QuestionAnswer.cs" />
     <Compile Include="EF\Models\Suggestion.cs" />
     <Compile Include="EF\Models\Token.cs" />
     <Compile Include="Interfaces\IAuth.cs" />
+    <Compile Include="Interfaces\IAuthA.cs" />
     <Compile Include="Interfaces\IAuthF.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202212081527363_ProductAndQuestionAnswerTableCreated.cs" />
@@ -82,13 +84,19 @@
     <Compile Include="Migrations\202212221659376_CreateTokensTable.designer.cs">
       <DependentUpon>202212221659376_CreateTokensTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212231452098_CreateQuestionsTable.cs" />
+    <Compile Include="Migrations\202212231452098_CreateQuestionsTable.designer.cs">
+      <DependentUpon>202212231452098_CreateQuestionsTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\SuggestionDTO.cs" />
+    <Compile Include="Repo\AdminRepo.cs" />
     <Compile Include="Repo\FishermanRepo.cs" />
     <Compile Include="Repo\OfficerRepo.cs" />
     <Compile Include="Repo\ProductRepo.cs" />
     <Compile Include="Repo\QuestionAnswerRepo.cs" />
+    <Compile Include="Repo\QuestionRepo.cs" />
     <Compile Include="Repo\Repo.cs" />
     <Compile Include="Repo\SuggestionRepo.cs" />
     <Compile Include="Repo\TokenRepo.cs" />
@@ -109,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212221659376_CreateTokensTable.resx">
       <DependentUpon>202212221659376_CreateTokensTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212231452098_CreateQuestionsTable.resx">
+      <DependentUpon>202212231452098_CreateQuestionsTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
