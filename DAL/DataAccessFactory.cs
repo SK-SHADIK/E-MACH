@@ -31,5 +31,9 @@ namespace DAL
         {
             return new ProductRepo();
         }
+        public static IRepo<LeaveApplication, int, LeaveApplication> LeaveApplicationDataAccess()
+        {
+            return new LeaveApplicationRepo();
+        }
     }
 }

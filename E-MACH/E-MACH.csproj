@@ -99,6 +99,7 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\FishermanController.cs" />
+    <Compile Include="Controllers\LeaveApplicationController.cs" />
     <Compile Include="Controllers\OfficerController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\QuestionAnswerController.cs" />

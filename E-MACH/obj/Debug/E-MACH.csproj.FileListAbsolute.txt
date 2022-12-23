@@ -235,3 +235,6 @@ D:\AIUB\ASP.NET\PROJECT\E-MACH\E-MACH\obj\Debug\E-MACH.csproj.CoreCompileInputs.
 D:\AIUB\ASP.NET\PROJECT\E-MACH\E-MACH\obj\Debug\E-MACH.csproj.CopyComplete
 D:\AIUB\ASP.NET\PROJECT\E-MACH\E-MACH\obj\Debug\E-MACH.dll
 D:\AIUB\ASP.NET\PROJECT\E-MACH\E-MACH\obj\Debug\E-MACH.pdb
+G:\10th Semester\.Net\Project\E-MACH\E-MACH\bin\System.Web.Cors.dll
+G:\10th Semester\.Net\Project\E-MACH\E-MACH\bin\System.Web.Http.Cors.dll
+G:\10th Semester\.Net\Project\E-MACH\E-MACH\bin\System.Web.Http.Cors.xml

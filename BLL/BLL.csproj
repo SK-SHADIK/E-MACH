@@ -48,12 +48,14 @@
     <Compile Include="DTOs\AdminDTO.cs" />
     <Compile Include="DTOs\EmployeeDTO.cs" />
     <Compile Include="DTOs\FishermanDTO.cs" />
+    <Compile Include="DTOs\LeaveApplicationDTO.cs" />
     <Compile Include="DTOs\OfficerDTO.cs" />
     <Compile Include="DTOs\ProductDTO.cs" />
     <Compile Include="DTOs\QuestionAnswerDTO.cs" />
     <Compile Include="DTOs\SuggestionDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\FishermanService.cs" />
+    <Compile Include="Services\LeaveApplicationService.cs" />
     <Compile Include="Services\OfficerService.cs" />
     <Compile Include="Services\ProductService.cs" />
     <Compile Include="Services\QuestionAnswerService.cs" />
