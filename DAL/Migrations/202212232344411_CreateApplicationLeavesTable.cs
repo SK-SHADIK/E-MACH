@@ -3,27 +3,27 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class CreateLeaveApplicationTable : DbMigration
+    public partial class CreateApplicationLeavesTable : DbMigration
     {
         public override void Up()
         {
             CreateTable(
-                "dbo.LeaveApplications",
+                "dbo.ApplicationLeaves",
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        Name = c.String(nullable: false),
                         Reason = c.String(nullable: false),
+                        Name = c.String(nullable: false),
                         From = c.DateTime(nullable: false),
-                        Finish = c.DateTime(nullable: false),
+                        To = c.DateTime(nullable: false),
+                        Status = c.String(),
                     })
                 .PrimaryKey(t => t.Id);
-            
         }
         
         public override void Down()
-        {
-            DropTable("dbo.LeaveApplications");
+        {            
+            DropTable("dbo.ApplicationLeaves");
         }
     }
 }

@@ -54,8 +54,8 @@
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\EMACHContext.cs" />
     <Compile Include="EF\Models\Admin.cs" />
+    <Compile Include="EF\Models\ApplicationLeave.cs" />
     <Compile Include="EF\Models\Fisherman.cs" />
-    <Compile Include="EF\Models\LeaveApplication.cs" />
     <Compile Include="EF\Models\Officer.cs" />
     <Compile Include="EF\Models\AddToCart.cs" />
     <Compile Include="EF\Models\OrderDetails.cs" />
@@ -76,10 +76,6 @@
     <Compile Include="Migrations\202212081544012_AdminTableCreated.designer.cs">
       <DependentUpon>202212081544012_AdminTableCreated.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202212191559395_CreateLeaveApplicationTable.cs" />
-    <Compile Include="Migrations\202212191559395_CreateLeaveApplicationTable.designer.cs">
-      <DependentUpon>202212191559395_CreateLeaveApplicationTable.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202212221659376_CreateTokensTable.cs" />
     <Compile Include="Migrations\202212221659376_CreateTokensTable.designer.cs">
       <DependentUpon>202212221659376_CreateTokensTable.cs</DependentUpon>
@@ -87,6 +83,10 @@
     <Compile Include="Migrations\202212231452098_CreateQuestionsTable.cs" />
     <Compile Include="Migrations\202212231452098_CreateQuestionsTable.designer.cs">
       <DependentUpon>202212231452098_CreateQuestionsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212232344411_CreateApplicationLeavesTable.cs" />
+    <Compile Include="Migrations\202212232344411_CreateApplicationLeavesTable.designer.cs">
+      <DependentUpon>202212232344411_CreateApplicationLeavesTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -112,14 +112,14 @@
     <EmbeddedResource Include="Migrations\202212081544012_AdminTableCreated.resx">
       <DependentUpon>202212081544012_AdminTableCreated.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202212191559395_CreateLeaveApplicationTable.resx">
-      <DependentUpon>202212191559395_CreateLeaveApplicationTable.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212221659376_CreateTokensTable.resx">
       <DependentUpon>202212221659376_CreateTokensTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212231452098_CreateQuestionsTable.resx">
       <DependentUpon>202212231452098_CreateQuestionsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212232344411_CreateApplicationLeavesTable.resx">
+      <DependentUpon>202212232344411_CreateApplicationLeavesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
