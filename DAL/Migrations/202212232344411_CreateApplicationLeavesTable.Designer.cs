@@ -7,13 +7,13 @@ namespace DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class CreateLeaveApplicationTable : IMigrationMetadata
+    public sealed partial class CreateApplicationLeavesTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateLeaveApplicationTable));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateApplicationLeavesTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "202212191559395_CreateLeaveApplicationTable"; }
+            get { return "202212232344411_CreateApplicationLeavesTable"; }
         }
         
         string IMigrationMetadata.Source
