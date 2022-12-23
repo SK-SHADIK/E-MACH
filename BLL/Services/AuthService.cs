@@ -14,25 +14,65 @@ namespace BLL.Services
     {
         public static TokenDTO Authenticate(string Email, string Pass)
         {
+            var dataA = DataAccessFactory.AdminAuthDataAccess().Authenticate(Email, Pass);
             var dataF = DataAccessFactory.FishermanAuthDataAccess().Authenticate(Email, Pass);
             var dataO = DataAccessFactory.OfficerAuthDataAccess().Authenticate(Email, Pass);
-            var token = new Token();
-            /*token.Username = dataF.Name;*/
-            token.Username = dataO.Name;
-            token.TKey = Guid.NewGuid().ToString();
-            token.CreationTime = DateTime.Now;
-            token.ExpirationTime = null;
-            var tk = DataAccessFactory.TokenDataAccess().Add(token);
-            if (tk != null)
+            if (dataO != null)
             {
-                var cfg = new MapperConfiguration(c =>
+                var token = new Token();
+                /*token.Username = dataF.Name;*/
+                token.Username = dataO.Name;
+                token.TKey = Guid.NewGuid().ToString();
+                token.CreationTime = DateTime.Now;
+                token.ExpirationTime = null;
+                var tk = DataAccessFactory.TokenDataAccess().Add(token);
+                if (tk != null)
                 {
-                    c.CreateMap<Token, TokenDTO>();
-                });
-                var mapper = new Mapper(cfg);
-                return mapper.Map<TokenDTO>(token);
+                    var cfg = new MapperConfiguration(c =>
+                    {
+                        c.CreateMap<Token, TokenDTO>();
+                    });
+                    var mapper = new Mapper(cfg);
+                    return mapper.Map<TokenDTO>(token);
+                }
+            }
+            else if (dataF != null) {
+                var token = new Token();
+                token.Username = dataF.Name;
+                token.TKey = Guid.NewGuid().ToString();
+                token.CreationTime = DateTime.Now;
+                token.ExpirationTime = null;
+                var tk = DataAccessFactory.TokenDataAccess().Add(token);
+                if (tk != null)
+                {
+                    var cfg = new MapperConfiguration(c =>
+                    {
+                        c.CreateMap<Token, TokenDTO>();
+                    });
+                    var mapper = new Mapper(cfg);
+                    return mapper.Map<TokenDTO>(token);
+                }
+            }
+            else if (dataA != null)
+            {
+                var token = new Token();
+                token.Username = dataA.Name;
+                token.TKey = Guid.NewGuid().ToString();
+                token.CreationTime = DateTime.Now;
+                token.ExpirationTime = null;
+                var tk = DataAccessFactory.TokenDataAccess().Add(token);
+                if (tk != null)
+                {
+                    var cfg = new MapperConfiguration(c =>
+                    {
+                        c.CreateMap<Token, TokenDTO>();
+                    });
+                    var mapper = new Mapper(cfg);
+                    return mapper.Map<TokenDTO>(token);
+                }
             }
             return null;
+            
         }
         public static bool IsValid(string token)
         {

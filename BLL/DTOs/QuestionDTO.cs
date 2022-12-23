@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.EF.Models
+namespace BLL.DTOs
 {
-    class Order
+    public class QuestionDTO
     {
+        public int Id { get; set; }
+        public string Ques { get; set; }
     }
 }

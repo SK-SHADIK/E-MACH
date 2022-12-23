@@ -11,6 +11,14 @@ namespace DAL
 {
     public class DataAccessFactory
     {
+        public static IRepo<Admin, int, Admin> AdminDataAccess()
+        {
+            return new AdminRepo();
+        }
+        public static IAuthA<Admin, int> AdminAuthDataAccess()
+        {
+            return new AdminRepo();
+        }
         public static IRepo<Fisherman, int, Fisherman> FishermanDataAccess()
         {
             return new FishermanRepo();
@@ -38,6 +46,10 @@ namespace DAL
         public static IRepo<Product, int, Product> ProductDataAccess()
         {
             return new ProductRepo();
+        }
+        public static IRepo<Question, int, Question> QuestionDataAccess()
+        {
+            return new QuestionRepo();
         }
         public static IRepo<Token, string, Token> TokenDataAccess()
         {
