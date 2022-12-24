@@ -51,3 +51,10 @@ D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateAddToCartTable.resourc
 D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateMyOrdersTable.resources
 D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateTokensTable1.resources
 D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateOrderDetailsTable.resources
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateTokensTable.resources
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateQuestionsTable.resources
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateApplicationLeavesTable.resources
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateAddToCartTable.resources
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateMyOrdersTable.resources
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateTokensTable1.resources
+G:\10th Semester\.Net\Project\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateOrderDetailsTable.resources

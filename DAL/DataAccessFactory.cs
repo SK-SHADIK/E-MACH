@@ -39,6 +39,11 @@ namespace DAL
         {
             return new QuestionAnswerRepo();
         }
+        public static IRepo<ApplicationLeave, int, ApplicationLeave> ApplicationLeaveDataAccess()
+        {
+            return new ApplicationLeaveRepo();
+        }
+        
         public static IRepo<Suggestion, int, Suggestion> SuggestionDataAccess()
         {
             return new SuggestionRepo();
