@@ -47,3 +47,7 @@ D:\AIUB\ASP.NET\PROJECT\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateLeaveApplicati
 D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateTokensTable.resources
 D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateQuestionsTable.resources
 D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateApplicationLeavesTable.resources
+D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateAddToCartTable.resources
+D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateMyOrdersTable.resources
+D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateTokensTable1.resources
+D:\AIUB\ASP.NET\E-MACH\DAL\obj\Debug\DAL.Migrations.CreateOrderDetailsTable.resources

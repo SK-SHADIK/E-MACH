@@ -19,6 +19,9 @@ namespace DAL.EF
         public DbSet <Suggestion> Suggestions { get; set; }
         public DbSet <Token> Tokens { get; set; }
         public DbSet <ApplicationLeave> ApplicationLeaves { get; set; }
+        public DbSet <AddToCart> AddToCarts { get; set; }
+        public DbSet <MyOrder> MyOrders { get; set; }
+        public DbSet <OrderDetails> OrderDetails { get; set; }
 
     }
 }

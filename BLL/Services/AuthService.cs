@@ -22,6 +22,7 @@ namespace BLL.Services
                 var token = new Token();
                 /*token.Username = dataF.Name;*/
                 token.Username = dataO.Name;
+                token.UserType = "Officer";
                 token.TKey = Guid.NewGuid().ToString();
                 token.CreationTime = DateTime.Now;
                 token.ExpirationTime = null;
@@ -39,6 +40,7 @@ namespace BLL.Services
             else if (dataF != null) {
                 var token = new Token();
                 token.Username = dataF.Name;
+                token.UserType = "Fisherman";
                 token.TKey = Guid.NewGuid().ToString();
                 token.CreationTime = DateTime.Now;
                 token.ExpirationTime = null;
@@ -57,6 +59,7 @@ namespace BLL.Services
             {
                 var token = new Token();
                 token.Username = dataA.Name;
+                token.UserType = "Admin";
                 token.TKey = Guid.NewGuid().ToString();
                 token.CreationTime = DateTime.Now;
                 token.ExpirationTime = null;
