@@ -111,6 +111,7 @@
     <Compile Include="Properties\SuggestionDTO.cs" />
     <Compile Include="Repo\AddToCartRepo.cs" />
     <Compile Include="Repo\AdminRepo.cs" />
+    <Compile Include="Repo\ApplicationLeaveRepo.cs" />
     <Compile Include="Repo\FishermanRepo.cs" />
     <Compile Include="Repo\MyOrderRepo.cs" />
     <Compile Include="Repo\OfficerRepo.cs" />

@@ -238,3 +238,6 @@ D:\AIUB\ASP.NET\PROJECT\E-MACH\E-MACH\obj\Debug\E-MACH.pdb
 D:\AIUB\ASP.NET\E-MACH\E-MACH\bin\System.Web.Cors.dll
 D:\AIUB\ASP.NET\E-MACH\E-MACH\bin\System.Web.Http.Cors.dll
 D:\AIUB\ASP.NET\E-MACH\E-MACH\bin\System.Web.Http.Cors.xml
+G:\10th Semester\.Net\Project\E-MACH\E-MACH\bin\System.Web.Cors.dll
+G:\10th Semester\.Net\Project\E-MACH\E-MACH\bin\System.Web.Http.Cors.dll
+G:\10th Semester\.Net\Project\E-MACH\E-MACH\bin\System.Web.Http.Cors.xml
