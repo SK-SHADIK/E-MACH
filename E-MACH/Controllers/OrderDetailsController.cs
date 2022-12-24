@@ -10,22 +10,16 @@ using System.Web.Http.Cors;
 namespace E_MACH.Controllers
 {
     [EnableCors("*", "*", "*")]
-    public class AdminDashboardController : ApiController
+    public class OrderDetailsController : ApiController
     {
         /*-------------------------SHOW ALL-------------------------*/
-        [Route("api/adminDashboard")]
+        [Route("api/OrderDetails")]
         [HttpGet]
         public HttpResponseMessage Get()
         {
             try
             {
-                var fisherman = FishermanService.Get();
-                var officer = OfficerService.Get();
-                var product = ProductService.Get();
-                var suggestion = SuggestionService.Get();
-                var questionanswer = QuestionAnswerService.Get();
-                var order = OrderDetailsService.Get();
-                List<object> data = new List<object> { new { fishermans = fisherman, officers = officer, products = product, orders = order, suggestions = suggestion, questionanswers = questionanswer} };
+                var data = OrderDetailsService.Get();
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)

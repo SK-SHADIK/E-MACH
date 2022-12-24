@@ -105,6 +105,7 @@
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\MyOrderController.cs" />
     <Compile Include="Controllers\OfficerController.cs" />
+    <Compile Include="Controllers\OrderDetailsController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\QuestionAnswerController.cs" />
     <Compile Include="Controllers\QuestionController.cs" />
