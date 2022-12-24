@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.EF.Models
 {
-    class OrderDetails
+    public class OrderDetails
     {
         public int Id { get; set; }
         public int OId { get; set; }

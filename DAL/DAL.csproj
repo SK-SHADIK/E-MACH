@@ -56,6 +56,7 @@
     <Compile Include="EF\Models\Admin.cs" />
     <Compile Include="EF\Models\ApplicationLeave.cs" />
     <Compile Include="EF\Models\Fisherman.cs" />
+    <Compile Include="EF\Models\MyOrder.cs" />
     <Compile Include="EF\Models\Officer.cs" />
     <Compile Include="EF\Models\AddToCart.cs" />
     <Compile Include="EF\Models\OrderDetails.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Interfaces\IAuthA.cs" />
     <Compile Include="Interfaces\IAuthF.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
+    <Compile Include="Interfaces\IRepoOR.cs" />
     <Compile Include="Migrations\202212081527363_ProductAndQuestionAnswerTableCreated.cs" />
     <Compile Include="Migrations\202212081527363_ProductAndQuestionAnswerTableCreated.designer.cs">
       <DependentUpon>202212081527363_ProductAndQuestionAnswerTableCreated.cs</DependentUpon>
@@ -88,12 +90,31 @@
     <Compile Include="Migrations\202212232344411_CreateApplicationLeavesTable.designer.cs">
       <DependentUpon>202212232344411_CreateApplicationLeavesTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212240644213_CreateAddToCartTable.cs" />
+    <Compile Include="Migrations\202212240644213_CreateAddToCartTable.designer.cs">
+      <DependentUpon>202212240644213_CreateAddToCartTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212240834583_CreateMyOrdersTable.cs" />
+    <Compile Include="Migrations\202212240834583_CreateMyOrdersTable.designer.cs">
+      <DependentUpon>202212240834583_CreateMyOrdersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212241020163_CreateTokensTable1.cs" />
+    <Compile Include="Migrations\202212241020163_CreateTokensTable1.designer.cs">
+      <DependentUpon>202212241020163_CreateTokensTable1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212241152322_CreateOrderDetailsTable.cs" />
+    <Compile Include="Migrations\202212241152322_CreateOrderDetailsTable.designer.cs">
+      <DependentUpon>202212241152322_CreateOrderDetailsTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\SuggestionDTO.cs" />
+    <Compile Include="Repo\AddToCartRepo.cs" />
     <Compile Include="Repo\AdminRepo.cs" />
     <Compile Include="Repo\FishermanRepo.cs" />
+    <Compile Include="Repo\MyOrderRepo.cs" />
     <Compile Include="Repo\OfficerRepo.cs" />
+    <Compile Include="Repo\OrderDetailsRepo.cs" />
     <Compile Include="Repo\ProductRepo.cs" />
     <Compile Include="Repo\QuestionAnswerRepo.cs" />
     <Compile Include="Repo\QuestionRepo.cs" />
@@ -120,6 +141,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212232344411_CreateApplicationLeavesTable.resx">
       <DependentUpon>202212232344411_CreateApplicationLeavesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212240644213_CreateAddToCartTable.resx">
+      <DependentUpon>202212240644213_CreateAddToCartTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212240834583_CreateMyOrdersTable.resx">
+      <DependentUpon>202212240834583_CreateMyOrdersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212241020163_CreateTokensTable1.resx">
+      <DependentUpon>202212241020163_CreateTokensTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212241152322_CreateOrderDetailsTable.resx">
+      <DependentUpon>202212241152322_CreateOrderDetailsTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -55,5 +55,21 @@ namespace DAL
         {
             return new TokenRepo();
         }
+        public static IRepo<AddToCart, int, AddToCart> AddToCartDataAccess()
+        {
+            return new AddToCartRepo();
+        }
+        public static IRepoOR<AddToCart, string> AddToCartADataAccess()
+        {
+            return new AddToCartRepo();
+        }
+        public static IRepo<MyOrder, int, MyOrder> MyOrderDataAccess()
+        {
+            return new MyOrderRepo();
+        }
+        public static IRepo<OrderDetails, int, OrderDetails> OrderDetailsDataAccess()
+        {
+            return new OrderDetailsRepo();
+        }
     }
 }
