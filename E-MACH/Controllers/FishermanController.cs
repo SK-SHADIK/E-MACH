@@ -44,6 +44,22 @@ namespace E_MACH.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }
+        /*-------------------------SHOW ONE-------------------------*/
+
+        [Route("api/fishermans/{name}")]
+        [HttpGet]
+        public HttpResponseMessage Fisherman(string name)
+        {
+            try
+            {
+                var data = FishermanService.Fisherman(name);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex.Message);
+            }
+        }
         /*-------------------------CREATE-------------------------*/
 
         [Route("api/fisherman/add")]

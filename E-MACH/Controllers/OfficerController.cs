@@ -106,5 +106,21 @@ namespace E_MACH.Controllers
             return Request.CreateResponse(HttpStatusCode.BadRequest, new { });
 
         }
+        /*-------------------------SHOW ONE-------------------------*/
+
+        [Route("api/officers/{name}")]
+        [HttpGet]
+        public HttpResponseMessage Officer(string name)
+        {
+            try
+            {
+                var data = OfficerService.Officer(name);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex.Message);
+            }
+        }
     }
 }

@@ -67,5 +67,16 @@ namespace BLL.Services
             var data = DataAccessFactory.OfficerDataAccess().Delete(id);
             return data;
         }
+        public static OfficerDTO Officer(string ab)
+        {
+            var data = DataAccessFactory.OfficerAuthDataAccess().Officers(ab);
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<Officer, OfficerDTO>();
+            });
+            var mapper = new Mapper(cfg);
+            return mapper.Map<OfficerDTO>(data);
+
+        }
     }
 }

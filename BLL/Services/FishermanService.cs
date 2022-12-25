@@ -66,6 +66,17 @@ namespace BLL.Services
         {
             var data = DataAccessFactory.FishermanDataAccess().Delete(id);
             return data;
-        } 
+        }
+        public static FishermanDTO Fisherman(string ab)
+        {
+            var data = DataAccessFactory.FishermanAuthDataAccess().Fishermans(ab);
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<Fisherman, FishermanDTO>();
+            });
+            var mapper = new Mapper(cfg);
+            return mapper.Map<FishermanDTO>(data);
+
+        }
     }
 }

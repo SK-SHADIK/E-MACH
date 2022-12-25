@@ -86,5 +86,22 @@ namespace BLL.Services
             }
             return false;
         }
+        public static TokenDTO logout(string token)
+        {
+            var data = DataAccessFactory.TokenDataAccess().Get(token);
+
+            if (data != null)
+            {
+                data.ExpirationTime = DateTime.Now;
+                var tk = DataAccessFactory.TokenDataAccess().Update(data);
+                var cfg = new MapperConfiguration(c =>
+                {
+                    c.CreateMap<Token, TokenDTO>();
+                });
+                var mapper = new Mapper(cfg);
+                return mapper.Map<TokenDTO>(tk);
+            }
+            return null;
+        }
     }
 }

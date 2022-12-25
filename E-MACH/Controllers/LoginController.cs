@@ -39,6 +39,21 @@ namespace E_MACH.Controllers
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex);
             }
         }
+        [HttpPost]
+        [Route("api/Logout/{token}")]
+        public HttpResponseMessage Logout(string token)
+        {
+            if (token == null)
+            {
+                return Request.CreateResponse(HttpStatusCode.NotFound, "Token is not provided");
+            }
+            var data = AuthService.logout(token);
+            if (data != null)
+            {
+                return Request.CreateResponse(HttpStatusCode.Accepted, data);
+            }
+            return Request.CreateResponse(HttpStatusCode.Unauthorized, "Token is invalid");
+        }
 
     }
 }

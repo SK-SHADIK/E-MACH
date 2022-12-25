@@ -44,7 +44,13 @@ namespace DAL.Repo
 
         public Admin Update(Admin obj)
         {
-            throw new NotImplementedException();
+            var dbadmin = Get(obj.Id);
+            db.Entry(dbadmin).CurrentValues.SetValues(obj);
+            if (db.SaveChanges() > 0)
+            {
+                return obj;
+            }
+            return null;
         }
     }
 }
